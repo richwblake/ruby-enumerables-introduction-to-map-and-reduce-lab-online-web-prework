@@ -25,5 +25,12 @@ def map_to_double( arr )
 end
 
 def map_to_square( arr )
+  mapped_arr = Array.new
+  index = 0
   
+  while index < arr.size do
+    mapped_arr.push( Math.sqrt(arr[index]) )
+    index += 1
+  end
+  mapped_arr
 end
