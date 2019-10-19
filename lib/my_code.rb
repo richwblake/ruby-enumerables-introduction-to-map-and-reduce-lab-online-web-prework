@@ -10,5 +10,5 @@ def map_to_negativize( arr )
 end
 
 def map_to_no_change( arr )
-  mapped_arr = Arra
+  mapped_arr = Array
 end
