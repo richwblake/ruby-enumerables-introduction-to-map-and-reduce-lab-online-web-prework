@@ -36,5 +36,12 @@ def map_to_square( arr )
 end
 
 def reduce_to_total( arr )
+  total = 0
+  index = 0
   
+  while index < arr.size do
+    total += arr[index]
+    index += 1
+  end
+  mapped_arr
 end
