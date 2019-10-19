@@ -14,5 +14,12 @@ def map_to_no_change( arr )
 end
 
 def map_to_double( arr )
+  mapped_arr = Array.new
+  index = 0
   
+  while index < arr.size do
+    mapped_arr.push( arr[index] * 2 )
+    index += 1
+  end
+  mapped_arr
 end
