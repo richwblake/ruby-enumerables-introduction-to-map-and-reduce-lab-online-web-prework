@@ -43,5 +43,5 @@ def reduce_to_total( arr )
     total += arr[index]
     index += 1
   end
-  mapped_arr
+  total
 end
