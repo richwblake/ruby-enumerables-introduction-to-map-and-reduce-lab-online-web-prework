@@ -12,3 +12,7 @@ end
 def map_to_no_change( arr )
   mapped_arr = Array.new( arr )
 end
+
+def map_to_double( arr )
+  
+end
