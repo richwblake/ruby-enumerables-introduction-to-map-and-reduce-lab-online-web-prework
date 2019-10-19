@@ -10,5 +10,5 @@ def map_to_negativize( arr )
 end
 
 def map_to_no_change( arr )
-  mapped_arr = Array
+  mapped_arr = Array.new( arr )
 end
