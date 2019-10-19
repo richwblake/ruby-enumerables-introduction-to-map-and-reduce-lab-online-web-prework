@@ -57,7 +57,7 @@ def reduce_to_all_true( arr )
   true
 end
 
-def reduce_to_all_true( arr )
+def reduce_to_all_false( arr )
   index = 0
   while index < arr.size do
     if ( !arr[index] )
