@@ -65,5 +65,5 @@ def reduce_to_any_true( arr )
     end
     index += 1
   end
-  true
+  nil
 end
