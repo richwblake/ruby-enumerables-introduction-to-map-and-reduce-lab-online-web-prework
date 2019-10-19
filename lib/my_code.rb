@@ -55,5 +55,5 @@ def reduce_to_all_true( arr )
     end
     index += 1
   end
-  nil
+  true
 end
