@@ -35,7 +35,7 @@ def map_to_square( arr )
   mapped_arr
 end
 
-def reduce_to_total( arr )
+def reduce_to_total( arr, starting_point = 0 )
   total = 0
   index = 0
   
