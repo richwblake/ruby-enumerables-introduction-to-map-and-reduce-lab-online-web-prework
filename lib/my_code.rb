@@ -23,3 +23,7 @@ def map_to_double( arr )
   end
   mapped_arr
 end
+
+def map_to_square( arr )
+  
+end
