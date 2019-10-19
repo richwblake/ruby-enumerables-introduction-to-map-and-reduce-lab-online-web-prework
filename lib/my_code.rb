@@ -29,7 +29,7 @@ def map_to_square( arr )
   index = 0
   
   while index < arr.size do
-    mapped_arr.push( Math.sqrt(arr[index]) )
+    mapped_arr.push( arr[index] ** 2 )
     index += 1
   end
   mapped_arr
