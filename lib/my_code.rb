@@ -6,4 +6,5 @@ def map_to_negativize( arr )
     mapped_arr.push( arr[index] * -1 )
     index += 1
   end
+  mapped_arr
 end
