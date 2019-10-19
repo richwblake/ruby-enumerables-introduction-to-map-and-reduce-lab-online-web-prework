@@ -60,8 +60,8 @@ end
 def reduce_to_any_true( arr )
   index = 0
   while index < arr.size do
-    if ( !arr[index] )
-      return nil
+    if ( arr[index] )
+      return true
     end
     index += 1
   end
