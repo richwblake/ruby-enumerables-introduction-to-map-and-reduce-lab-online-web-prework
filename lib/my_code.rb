@@ -52,6 +52,7 @@ def reduce_to_all_true( arr )
   while index < arr.size do
     if ( arr[index] )
       true
+    end
     index += 1
   end
   nil
